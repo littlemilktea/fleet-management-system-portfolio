@@ -42,15 +42,7 @@ The system currently supports:
 
 The backend uses a layered structure:
 
-Browser
-   ↓
-Controller
-   ↓
-Service
-   ↓
-Repository
-   ↓
-PostgreSQL
+Browser - Controller - Service - Repository - PostgreSQL
 
 Controllers handle requests.
 Services contain the main business rules.
